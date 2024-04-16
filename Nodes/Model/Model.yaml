@@ -1,0 +1,85 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Recipe/Recipe.yaml
+- Name: MyMotor
+  Id: g=7a1412cc9cf66676bd2c596b1b0c0322
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor1
+  Id: g=46fc9ba15b386530ac9c0d48ceec056e
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "M01"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+- Name: MyMotor2
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "M02"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MyMotor3
+  Type: MyMotor
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "M03"
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Enable
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Variable1
+  Id: g=0b91c065dc934a961f43d9ce7a4ed73a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 10
+- Name: Variable2
+  Id: g=45fec2c7af4993047e5a0cb6b9e93cbb
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 20
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 30
+- Name: Variable4
+  Id: g=b5479de914f636784f00e5698eef1a53
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

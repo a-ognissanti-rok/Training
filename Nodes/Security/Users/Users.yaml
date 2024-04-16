@@ -1,0 +1,34 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=acfb6746ce74b2a7a5f8e3993fc04459
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=17764928dfd6305d41653f0fef73c2a5
+  - Class: Reference
+    Type: HasGroup
+    Target: g=14aac684675bad67fe02087d02791c64
+  - Class: Reference
+    Type: HasRole
+    Target: g=ca893631df9d3bd4b48a6ec6777b546a
+- Name: User2
+  Id: g=045ef202353652ae1bb2c9b69e52bb56
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=c584b09e7b3e341d1eb4172c576d1a73
+  - Class: Reference
+    Type: HasGroup
+    Target: g=14aac684675bad67fe02087d02791c64
+- Name: User3
+  Id: g=a14fcf5ad90d468a8edd12d0a8f151c6
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=14aac684675bad67fe02087d02791c64
