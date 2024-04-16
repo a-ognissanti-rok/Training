@@ -1,7 +1,7 @@
 Name: Dialogs
 Type: FolderType
 Children:
-- Name: DialogBox1
+- Name: DialogBox_MARTIN
   Id: g=d827260f6e97212def402a8d48cc13ff
   Supertype: Dialog
   ReferenceType: HasComponent
