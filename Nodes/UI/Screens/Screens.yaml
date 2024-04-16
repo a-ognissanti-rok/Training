@@ -1363,7 +1363,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
-                  Value: "/Objects/Training/UI/UITypes/Dialogs/DialogBox_MARTIN"
+                  Value: "/Objects/Training/UI/UITypes/Dialogs/MyDialogBox"
                 - Name: AliasNode
                   Type: BaseDataVariableType
                   DataType: NodeId
