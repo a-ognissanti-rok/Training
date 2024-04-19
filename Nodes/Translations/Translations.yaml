@@ -1,7 +1,9 @@
 Name: Translations
+Id: g=e3ae16ee590f63ab76a2c3c22394913b
 Type: TranslationsCategoryFolder
 Children:
 - Name: LocalizationDictionary1
+  Id: g=c379dd9389aca6fc896700d62f1849f9
   Type: LocalizationDictionary
   DataType: String
   ValueRank: OneOrMoreDimensions
@@ -9,8 +11,107 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,2],
+    "Dimensions": [58,3],
     "Body": [
-     "","en-US"
+     "","en-US","it-IT",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Confirm","Confirm","",
+     "Confirm All","Confirm All","",
+     "SourceName","Source Variable","Variabile sorgente",
+     "Timestamp","Timestamp","Timestamp",
+     "Name","Name","Nome",
+     "Message","Message","Messaggio",
+     "Active","Active","Attivo",
+     "Acked","Acked","Riconosciuto",
+     "Confirmed","Confirmed","Confermato",
+     "Severity","Severity","Gravità",
+     "Close","Close","",
+     "Enable","Enable","",
+     "Refresh","Refresh","Aggiorna",
+     "From","From","Da",
+     "To","To","A",
+     "Save","Save","Salva",
+     "Delete","Delete","Elimina",
+     "RecipeControllerDeleted","deleted","eliminata",
+     "RecipesEditorNotFound","not found","non trovato",
+     "RecipesEditorNotSet","is not set","non è impostato",
+     "Load","Load","Carica",
+     "RecipeControllerSaved","saved","salvata",
+     "RecipeControllerCreatedAndSaved","created and saved","creata e salvata",
+     "Apply","Apply","Applica",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","Il nome della ricetta è vuoto",
+     "RecipeControllerRecipe","Recipe","Ricetta",
+     "RecipeControllerRecipeApplied","Recipe applied","Ricetta applicata",
+     "RecipeControllerRecipeLoaded","Recipe loaded","Ricetta caricata",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","Variabile RecipeSchema non trovata",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","RecipeSchema non impostato",
+     "RecipesEditorRecipeNotFound","Recipe not found","Ricetta non trovata",
+     "RecipesEditorNotARecipe","is not a recipe","non è una ricetta",
+     "RecipesEditorStoreOfSchema","Store of schema","L'archivio dello schema",
+     "RecipesEditorStore","Store","Archivio",
+     "RecipesEditorNotAStore","is not a store","non è un archivio",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","EditModel dello schema",
+     "Password","Password","Password",
+     "Login","Login","Login",
+     "Old password","Old password","Vecchia password",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","Operazione non supportata",
+     "New password","New password","Nuova password",
+     "Confirm password","Confirm password","Conferma password",
+     "Change password","Change password","Cambia password",
+     "Current User:","Current User:","Utente corrente:",
+     "Logout","Logout","Logout",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","Password scaduta.\nImmetterne una nuova.",
+     "LoginFormLoginSuccessful","Login successful","Login riuscito",
+     "LoginFormPasswordExpired","Password expired","Password scaduta",
+     "LoginFormAuthenticationFailed","Authentication failed","Autenticazione fallita",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","Vecchia password errata",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","Password già utilizzata",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","Password cambiata troppo recentemente",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","Password troppo corta",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","Le password non coincidono",
+     "LoginChangePasswordFormUserNotFound","User not found","Utente non trovato"
     ]
    }
+- Name: ImportAndExportTranslations
+  Id: g=73beb74a75e453cc9a2ff30468ddeae3
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=f652ee612244d99f98ac23ec05daecfe
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=c52f3ef120154a3077df37457ef6b922
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: ""
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=70b24211c76793f53f25cec8a24bd2b4
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=4fbd5abe773651cf7b13fdbf91a11a2a
+  - Name: CharacterSeparator
+    Id: g=ec24c49b0095a0687d1067e8a8bca56b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=2b069a892877670e046c4554d668cac6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LocalizationDictionary
+    Id: g=3c11adc174c29d7414241030f0813d8f
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=12b0e1d1ed7a2c41e4cc753c71c83a31
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"

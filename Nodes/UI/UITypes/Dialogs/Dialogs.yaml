@@ -1,4 +1,5 @@
 Name: Dialogs
+Id: g=8bf68fd94ff88325b2cc9006b5c3eef9
 Type: FolderType
 Children:
 - Name: MyDialogBox
@@ -10,308 +11,378 @@ Children:
     Target: ns=3;i=519
     Direction: Forward
   - Name: Width
+    Id: g=ecf60d4bd59c9610549239c8e0b581f8
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
   - Name: Height
+    Id: g=078d7daf70772cd0ac35e653093e2e6d
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
   - Name: Background
+    Id: g=008212fa88fcf6e638ec4c9b0b22eb79
     Type: Rectangle
     Children:
     - Name: Width
+      Id: g=19b9cb665158956f0670a0601bf3bf11
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: Height
+      Id: g=c45d27f2b02020407c478ae850f1ea3a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
     - Name: BorderThickness
+      Id: g=724774c049e295f76035e76ba25e1a29
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 1.0
     - Name: HorizontalAlignment
+      Id: g=b6449f70d13e69e6f16259111a35b2ac
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=8e8397e7fc7a029fca34bfb3e2c923ec
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
   - Name: Title
+    Id: g=2bee15d3d60fa23c5c62166a9fc9f24c
     Type: Label
     Children:
     - Name: Text
+      Id: g=cdb8ab4a706582500033820c2abcb374
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=325a5688fe62b2002bec7322e9afa2f3
         Type: DynamicLink
         DataType: NodePath
         Value: "{MotorDialog}/Name"
     - Name: TopMargin
+      Id: g=9fbf3d7a262e9f403da0ad52e1fb8c6a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
     - Name: LeftMargin
+      Id: g=3b3382b695b230f66edd5e4a9ccb45c2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
   - Name: Content
+    Id: g=f6c3637fd631737bbfa720bb415a25d7
     Type: ColumnLayout
     Children:
     - Name: VerticalGap
+      Id: g=b986c06e9a9f51f5586ebc05bcd4a735
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
     - Name: Speed
+      Id: g=213856c2b54689fac4fe2f10b5688cd7
       Type: RowLayout
       Children:
       - Name: Title
+        Id: g=0ec28c6e1cfd1daf19b8cf1738bb4cef
         Type: Label
         Children:
         - Name: Text
+          Id: g=4f87fbbf9f205697b5da2b790134c499
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"Speed"}
       - Name: HorizontalGap
+        Id: g=4faa7b96e56ea7e7a3d2b10009f5658f
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 16.0
       - Name: SpinBox1
+        Id: g=b4c1bb427f0fe25dcf18824fd0bfc664
         Type: SpinBox
         Children:
         - Name: Value
+          Id: g=c6b86aa7ecc2a2ac5f71d689a226b5bb
           Type: BaseDataVariableType
           DataType: Double
           Value: 0.0
           Children:
           - Name: DynamicLink
+            Id: g=b72842977fb88d2de7bb17afe201aaa5
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorDialog}/Speed"
             Children:
             - Name: Mode
+              Id: g=a0cc8f394ebea3d46722c94247fdb30a
               Type: BaseVariableType
               DataType: DynamicLinkMode
               ModellingRule: Optional
               Value: 2
         - Name: Width
+          Id: g=def9564820cd8587442c00cabf0203e3
           Type: BaseVariableType
           DataType: Size
           Value: 80.0
     - Name: Enable
+      Id: g=daee0bc4f71b0488ced77f30e7fad43a
       Type: RowLayout
       Children:
       - Name: Title
+        Id: g=6710f6046c6db8a2f069d4049b802c46
         Type: Label
         Children:
         - Name: Text
+          Id: g=36ed31fffd2bc4f48b14ee9d651c0911
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Enable"}
+          Value: {"NamespaceIndex":13,"TextId":"Enable"}
       - Name: HorizontalGap
+        Id: g=4f7f752765b7da6de56fb13003b4494c
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 16.0
       - Name: Switch1
+        Id: g=860d8069681bcbf9862d70d6aab64773
         Type: Switch
         Children:
         - Name: Checked
+          Id: g=e8941d7ee03eab9774ccc4d5c2f182c2
           Type: BaseDataVariableType
           DataType: Boolean
           Value: false
           Children:
           - Name: DynamicLink
+            Id: g=72fcbf4148ea0b169ab7f10964516ce7
             Type: DynamicLink
             DataType: NodePath
             Value: "{MotorDialog}/Enable"
             Children:
             - Name: Mode
+              Id: g=f10d1328971ddc552d44d514d31a16c7
               Type: BaseVariableType
               DataType: DynamicLinkMode
               ModellingRule: Optional
               Value: 2
         - Name: Visible
+          Id: g=8e75c138fade746f48c1770534caa875
           Type: BaseDataVariableType
           DataType: Boolean
           ModellingRule: Optional
           Value: true
     - Name: LeftMargin
+      Id: g=a2b27f71c9df729865b08a64b1d598bc
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
     - Name: TopMargin
+      Id: g=ac68455990beccb19180c94c32156b28
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
     - Name: HorizontalAlignment
+      Id: g=1e012f84ca9e40b749fb92717d3afac1
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 0
     - Name: VerticalAlignment
+      Id: g=96fe852c38c1a5964e181f68f02f139d
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 2
     - Name: RightMargin
+      Id: g=42d8299b0c7ee9838247ddb122ed34cc
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
     - Name: BottomMargin
+      Id: g=d33ddff6a3556eb6bd21e13df43190cc
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
   - Name: Button1
+    Id: g=36e2a174f5b0fbe64f04dfde512f173f
     Type: Button
     Children:
     - Name: Text
+      Id: g=b6d137e6bfa611451df5efcde7533bad
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Close"}
+      Value: {"NamespaceIndex":13,"TextId":"Close"}
     - Name: HorizontalAlignment
+      Id: g=d4433188c1410e092fd6f17c18032c99
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: VerticalAlignment
+      Id: g=87e0f335f500a4e0cfd1cda328e69c04
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: RightMargin
+      Id: g=a06ed247c02260fb8f807ff43b573795
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
     - Name: BottomMargin
+      Id: g=18b4fa058e6c5806b414e0bca51d6f6d
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
     - Name: Height
+      Id: g=3361632e45aa39526e873292f02560cf
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 24.0
     - Name: Width
+      Id: g=933648eacc14b35e7a61187805205f53
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 76.0
     - Name: MouseClickEventHandler1
+      Id: g=ea70f4480d2eece8de22ce6060a2e131
       Type: EventHandler
       Children:
       - Name: ListenEventType
+        Id: g=c4ee9a6aadc1d5e5a9751ccf6460c419
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
       - Name: MethodsToCall
+        Id: g=bf00592b17fe852831a048926a165bdb
         Type: BaseObjectType
         Children:
         - Name: MethodContainer1
+          Id: g=6be533b229efda32005276c29bdf3f39
           Type: BaseObjectType
           Children:
           - Name: ns=2;ObjectPointer
+            Id: g=6ca85abaca684fe1bcbae4e98a221054
             Type: NodePointer
             DataType: NodeId
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
+              Id: g=16b3e49942f52a48eb9af612f8507b5a
               Type: PropertyType
               DataType: NodeId
               Value: "/Types/ObjectTypes/BaseObjectType"
             - Name: DynamicLink
+              Id: g=1ea16f999812295ebd6360ff667257f2
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../..@NodeId"
               Children:
               - Name: Mode
+                Id: g=d38b947d3fbc8f248f22c79725142a46
                 Type: BaseVariableType
                 DataType: DynamicLinkMode
                 ModellingRule: Optional
                 Value: 2
           - Name: ns=2;Method
+            Id: g=f501ec09bba47b974444b25c608be924
             Type: BaseDataVariableType
             DataType: String
             Value: "Close"
       - Name: EventArguments
+        Id: g=1934a3fadfb7affa449d3f47243eb450
         Type: MouseClickEvent
         Children:
         - Name: EventId
+          Id: g=1432b70a2bdeceb19f9c7e659c7a8d50
           Type: PropertyType
           DataType: ByteString
           Value: ""
         - Name: EventType
+          Id: g=8288474e81d47764fc389c028ba3737b
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
+          Id: g=de184071887cfc9ece74e2304caa5f0a
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
+          Id: g=36670416499ffea967e9ddf91d610485
           Type: PropertyType
           DataType: String
           Value: ""
         - Name: Time
+          Id: g=b31320e7c8e7c61a45b366c1b7436092
           Type: PropertyType
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
+          Id: g=978216974dbca75db8edf08403bdb4f0
           Type: PropertyType
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
+          Id: g=65f24ea35148705b5e902750877d5174
           Type: PropertyType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
+          Id: g=c6dd4e12212aa6b9de77bf6abf648682
           Type: PropertyType
           DataType: UInt16
           Value: 0
   - Name: MoveTarget
+    Id: g=972a15a783195affba8719a5d236e602
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=e191661b8c37056c93d8390bc715b8b5
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: DynamicLink
+      Id: g=732dd427741bfb56152dbe8eb1fcab36
       Type: DynamicLink
       DataType: NodePath
       Value: "..@NodeId"
   - Name: MotorDialog
+    Id: g=1141f58f19e66a21fc6e9b5b0c8c4438
     Type: Alias
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
+      Id: g=ee53b32f50b19d48b76100e5cd40070d
       Type: PropertyType
       DataType: NodeId
       Value: "/Objects/Training/Model/MyMotor"

@@ -1,4 +1,5 @@
 Name: Converters
+Id: g=d186872259b3a95e2041ad7e5e819885
 Type: ConvertersCategoryFolder
 Children:
 - Name: KeyValueConverter1
@@ -7,47 +8,57 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Pairs
+    Id: g=fe978af18a9d20ff773404a564d59b78
     Type: BaseObjectType
     ModellingRule: None
     Children:
     - Name: Pair
+      Id: g=1c6e9c093a1396480e76407564c2ab34
       Type: ValueMapPair
       ModellingRule: None
       Children:
       - Name: Key
+        Id: g=44b2d601a7602b7aab6fcb5cf8b3fb2a
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
         Value: 1
       - Name: Value
+        Id: g=c5d242965485b5ab9e663e6a862d2d8c
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
         Value: "Motor 1"
     - Name: Pair1
+      Id: g=02c3e84923ec10b22a5cdefa5512cebb
       Type: ValueMapPair
       ModellingRule: None
       Children:
       - Name: Key
+        Id: g=ac930321afd72f755022f5ab8a0e17f1
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
         Value: 2
       - Name: Value
+        Id: g=e54f8b33c4312168ddb46b9341c44879
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
         Value: "Motor 2"
     - Name: Pair2
+      Id: g=01ee673dcfae16d727654137022cf52d
       Type: ValueMapPair
       ModellingRule: None
       Children:
       - Name: Key
+        Id: g=bafc59a1d392f9db8a7e6936be81fc42
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
         Value: 3
       - Name: Value
+        Id: g=743d1104804b67fcbdc332808ced8f31
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None

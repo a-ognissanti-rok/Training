@@ -1,99 +1,119 @@
 Name: Recipes
+Id: g=c2ade3e469fec6e05ec400521e624506
 Type: RecipesCategoryFolder
 Children:
 - Name: RecipeSchema1
+  Id: g=650d74ac95b117cb1e9538ee417c5d27
   Type: RecipeSchema
   Children:
   - Name: Root
+    Id: g=5cbad897ef652d554284e1c02c13921e
     Type: BaseObjectType
     Children:
     - Name: Variable1
+      Id: g=dd90c53045dddf2d56911fd0d1a34253
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Variable2
+      Id: g=b17d0bde6519c467954bbabe1a0c6024
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Variable3
+      Id: g=fcbb7517188c487bc975c97480945df4
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Variable4
+      Id: g=bb00026166fb5abdc31ec6866ee9cc64
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
   - Class: Reference
-    Target: ns=9;i=27
+    Target: ns=33;i=27
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=33
+    Target: ns=33;i=33
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=31
+    Target: ns=33;i=31
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=44
+    Target: ns=33;i=44
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=35
+    Target: ns=33;i=35
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=37
+    Target: ns=33;i=37
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=76
+    Target: ns=33;i=76
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=53
+    Target: ns=33;i=53
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=62
+    Target: ns=33;i=62
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=55
+    Target: ns=33;i=55
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=58
+    Target: ns=33;i=58
     Direction: Forward
   - Class: Reference
-    Target: ns=9;i=60
+    Target: ns=33;i=60
     Direction: Forward
-  - Name: TargetNode
-    Type: NodePointer
-    DataType: NodeId
-    Value: "/Objects/Training/Model/Recipe"
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: Store
+    Id: g=daddedb0124b6df67589ded07ba16a65
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Training/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
+      Id: g=9e3c9d86a5e1cb7357ede54d09bb7355
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TableName
+    Id: g=00dfbb8a9126ef6d5d666d6d8345d3da
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: TargetNode
+    Id: g=c6d2c70814ef22bf95690f6c16b8f9fa
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Training/Model"
+    Children:
+    - Name: Kind
+      Id: g=73c09c865be76a3cff999eb20c8da0f4
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: EditModel
-    Id: g=5b3613e76ae3a8b477fa0ac509724767
+    Id: g=855ee8517667f1924b601d84fa2fe253
     Type: BaseObjectType
     Children:
     - Name: Variable1
+      Id: g=09633cb153ba205ad4e5f52c4a494b0d
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Variable2
+      Id: g=786d3651c3c4d2b7f1de6ba049daa190
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Variable3
+      Id: g=7bc990a96902a8264d211cb52f7fc8ab
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0
     - Name: Variable4
+      Id: g=b95924e9a3e5b20ab00adb4f6dba9bcc
       Type: BaseDataVariableType
       DataType: Int32
       Value: 0

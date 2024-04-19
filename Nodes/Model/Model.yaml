@@ -1,4 +1,5 @@
 Name: Model
+Id: g=2ac8ed60354023cccf51702eb84ffec9
 Type: ModelCategoryFolder
 Children:
 - File: Recipe/Recipe.yaml
@@ -7,14 +8,22 @@ Children:
   Supertype: BaseObjectType
   Children:
   - Name: Name
+    Id: g=7805b9338eb98ec2f498998469dd98b1
     Type: BaseDataVariableType
     DataType: String
     Value: ""
   - Name: Speed
+    Id: g=6969ba67395fa34da1dd12e685eb3673
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Enable
+    Id: g=8394da04c2d6023c7adb83e251d1cd45
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=cf8d4a0b2478fa28136ac29fbeaf6f39
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -23,44 +32,70 @@ Children:
   Type: MyMotor
   Children:
   - Name: Name
+    Id: g=56aac095dffc927e71193809599482f3
     Type: BaseDataVariableType
     DataType: String
     Value: "M01"
   - Name: Speed
+    Id: g=5686346e49473d7c61b3e91fa59e0d41
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Enable
+    Id: g=550b574e9e8e8df4ccfe4356751f5f6a
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
+  - Name: Alarm
+    Id: g=105a51289201877dc9b0512eadd5add4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
 - Name: MyMotor2
+  Id: g=c4b7b1c7e3a1e25c36a24f673d72cf7a
   Type: MyMotor
   Children:
   - Name: Name
+    Id: g=65413695cdb0431049d82cf07d0f07df
     Type: BaseDataVariableType
     DataType: String
     Value: "M02"
   - Name: Speed
+    Id: g=4d8b62220b82889f052fd5ccabef73f9
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Enable
+    Id: g=c4074ae1a84edd25c0179e7b77da6859
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=74c7c02ea3c9dc66b54b3d16f6cfd765
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
 - Name: MyMotor3
+  Id: g=e0c6991b06846abcc73adaf85830ae9a
   Type: MyMotor
   Children:
   - Name: Name
+    Id: g=50e9b3862a17ac1474ddcad49c5699b8
     Type: BaseDataVariableType
     DataType: String
     Value: "M03"
   - Name: Speed
+    Id: g=ad59d48f692420cfab51408c0c9667b2
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: Enable
+    Id: g=7939d21506583c73c1e66acc4112ad9b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Alarm
+    Id: g=97c270dccf0d980100d8ec6b7a2776c5
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -75,6 +110,7 @@ Children:
   DataType: Int32
   Value: 20
 - Name: Variable3
+  Id: g=0318f0d36e6ef354fe5a725a65bb577e
   Type: BaseDataVariableType
   DataType: Int32
   Value: 30
@@ -83,3 +119,93 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- Name: Lenght
+  Id: g=7892880bb028b357a4c05126d1542510
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 12.0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=7b56579f8e7cebc0de0956701719875a
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Id: g=c438d923becb1f57408c5f8fe4dc085e
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4804168
+    - Name: DisplayName
+      Id: g=8620e1cb3e32e69a9302357c7caf5fb2
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Id: g=8d9073e0762003af981946fa4bb8ebfd
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- File: Alarms/Alarms.yaml
+- Name: Motor1
+  Id: g=a948eccfffb9d8f06cdee107f1d29ba1
+  Type: Motor
+  DataType: Motor
+  Children:
+  - Name: Power
+    Id: g=9c8aaa7f09473a4edf44c620ea7e4241
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Id: g=5d5a6e3874c834a46e73745e14d2a11d
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Power"
+  - Name: Speed
+    Id: g=ffbd1279ea835074316fe5586f5c1b0d
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=be7bf32d5cd7c2ffe466878cdb00a2bf
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: CmdOffOn
+    Id: g=9ee4c3470129889a74c1a5f6829a7d8f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=9879b351ce48497334bb0574bd34bc65
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CmdOffOn"
+  - Name: SetSpeed
+    Id: g=47e61e7791d89acc55f435ad136148ed
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Id: g=6efce51d54c6db5171a69365d655b45e
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetSpeed"
+  - Name: Status
+    Id: g=6909291359604c307219c2b662045a8a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Id: g=f00fbeb34f8749d9da42b2df6e042d1a
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Status"

@@ -1,4 +1,5 @@
 Name: Components
+Id: g=0f6c1292311a861e30710b5a926b930d
 Type: FolderType
 Children:
 - Name: BaseScreen
@@ -7,23 +8,28 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Label1
+    Id: g=bb10b2473be08684c8c5f4037a5e6f34
     Type: Label
     Children:
     - Name: FontSize
+      Id: g=261f467e5abb9592895683bdec1647c1
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 22.0
     - Name: TextColor
+      Id: g=910da4c307dd56e5d92e9af9a501b07a
       Type: BaseDataVariableType
       DataType: Color
       Value: "#000000"
     - Name: Text
+      Id: g=2d8bae59341b42322597087a7a936c38
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=ea69af5ed4a01710a817800083662ac4
         Type: DynamicLink
         DataType: NodePath
         Value: "../..@BrowseName"
@@ -33,24 +39,29 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Width
+    Id: g=cfe9a639e421e05ecc52ec3e61ff111c
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
   - Name: Height
+    Id: g=7c7fc619b43e677eaf5b96fe617a6e1d
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 300.0
   - Name: Label1
+    Id: g=a1b543c58fffd3b4cfdf3e83dc63324e
     Type: Label
     Children:
     - Name: Text
+      Id: g=d10ab2cadce0dacc09f7dd3617be13dc
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=2da7fe504b395053a56bdef63cdd4633
         Type: DynamicLink
         DataType: NodePath
         Value: "../..@BrowseName"

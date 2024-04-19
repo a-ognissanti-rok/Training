@@ -1,19 +1,23 @@
 Name: TagImporter
+Id: g=71cbcc6339b70decb20100da67bcac66
 Type: RAEtherNetIPTagImporter
-OwnerId: ns=2;g=ea762724dbf2a3d27eb070daa39d8d31
+OwnerId: ns=2;g=de2ffee3cbbf55ef1654c70b6991cf5a
 Children:
 - Name: IgnoredPLCItems
+  Id: g=6515eaa45598ec436baeb27405e5a12e
   Type: BaseDataVariableType
   DataType: BaseDataType
   ValueRank: OneDimension
   ArrayDimensions: [0]
 - Name: IgnoredHMIItems
+  Id: g=7aea5f39fdc4ec32040b020396cb621c
   Type: BaseDataVariableType
   DataType: NodeId
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: []
 - Name: FilePath
+  Id: g=4ed1c7bab0cf0c33dd7747e26d2fc9c9
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: "file:///D:/Downloads/Oven_and_BoilerDemo_20230320_1503_V36.ACD"
+  Value: "file:///D:/Downloads/Oven_and_BoilerDemo_20230320_1503.ACD"

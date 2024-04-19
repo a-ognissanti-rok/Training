@@ -1,0 +1,103 @@
+Name: DataTypes
+Id: g=13c693e901e7fdadb7b1560778b2efc7
+Type: FolderType
+Children:
+- Class: DataType
+  Name: Motor1
+  Id: g=244e067950c1f0b177eefe1d6d2e555a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "Motor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "244e067950c1f0b177eefe1d6d2e555a",
+     "Namespace": 13
+    },
+    "Fields": [{
+      "Name": "Power",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CmdOffOn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SetSpeed",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"Motor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=926a44b07a60ba93ccbf9d1a21de49d3
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: TankUDT1
+  Id: g=5e76ff6880ddbd23a0312cf3df746503
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TankUDT",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5e76ff6880ddbd23a0312cf3df746503",
+     "Namespace": 13
+    },
+    "Fields": [{
+      "Name": "ValveInStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveInCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveOutStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ValveOutCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Level",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SetPoint",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TankUDT"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: g=8491719a191cf1aae427667c599acbc7
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

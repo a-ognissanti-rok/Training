@@ -1,3 +1,81 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: ImportAndExportAlarms
+  Id: g=27fd625a48fc73d52691b25194cb8445
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=c2d5d65bed3657327b944432965c8dc5
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ImportAlarms
+    Id: g=6604fb4f9d20b457903c4689ad596bac
+  - Class: Method
+    Name: ExportAlarms
+    Id: g=bc384994ba43f32a8efe8d9d1672861a
+  - Name: CSVPath
+    Id: g=b098882a1991bb59a66c2dc65c4118d4
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///D:/project_directory/Training/ProjectFiles/alarms.csv"
+  - Name: CharacterSeparator
+    Id: g=6056a5d22d1c4164246e265068568d36
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=698c134f88d2f6345713e66a6d64173e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: DigitalAlarm1
+  Id: g=3dc9aaf67eef40a0bf7d4c48be44e782
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=154d876238794808fb8dee282c9d354d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=49ded745ec2e122ff5af2cd7f22e8695
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=6d0110fc912276b2a34852bd78177d40
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Tank1/ValveInStatus"
+      Children:
+      - Name: Mode
+        Id: g=b5dbbc09ff1c2b2576d332f356204c25
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=532f2f54841eac2ddc327f5d3495cc36
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=31;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=83
+    Direction: Forward
+  - Name: Message
+    Id: g=f19d31a51e4cf4e54fc26ce10259a144
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Message 1"}

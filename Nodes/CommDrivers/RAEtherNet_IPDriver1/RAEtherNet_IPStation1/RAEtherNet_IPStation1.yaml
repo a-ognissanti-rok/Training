@@ -1,144 +1,169 @@
 Name: RAEtherNet_IPStation1
-Id: g=ea762724dbf2a3d27eb070daa39d8d31
+Id: g=de2ffee3cbbf55ef1654c70b6991cf5a
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
+  Id: g=8a89881be89e832c39857cc6d21ada87
   Type: BaseDataVariableType
   DataType: String
   Value: ""
 - Name: StationStatusVariables
+  Id: g=17b89deee40f9046494eb2db360fe075
   Type: PropertyGroup
   Children:
   - Name: ActiveDataItems
+    Id: g=db0439783626eab4100a2598b4b078c4
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: ActivityCounter
+    Id: g=46206ff4cc81b3c2f376326d739b838d
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: CatalogNumber
+    Id: g=203ef2b73e48c396f5087b91176ce929
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: ControllerName
+    Id: g=902c935b953e899b350f0703f61a2e3b
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: FailedDataItems
+    Id: g=7bcf8834d71c7ae821df570d2e39e7d3
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MajorRev
+    Id: g=acba6c57e79841bc2a0af0b3e27a9dd3
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: MinorRev
+    Id: g=ac9f523406b426bb0e9ac76d90ee3f98
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: Mode
+    Id: g=7237d948b569323fd92d016c05bbcd8b
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: OptimizedBlocks
+    Id: g=e487eb02a7df526813d95d5c8811b11d
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: Path
+    Id: g=342a43f02faa54688fefaaaa15d001ee
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: Present
+    Id: g=9dee773a2934d6501538f8a42011a75f
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: ProductCode
+    Id: g=a1fa84994ab39fdac23cb01436985a3a
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: ProductType
+    Id: g=eb3b65aef2c360d3eb119821401b0ba9
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
   - Name: RecoverableMajorFaults
+    Id: g=379dbabe3abdf16f2ff66c976b2b5593
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: RecoverableMinorFaults
+    Id: g=0760ac69fe2fce572cedfd47cdcbf9ec
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: RunMode
+    Id: g=fb9c7ae02e741ec86bd92559dd442e74
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: Synchronized
+    Id: g=ef0b0ceed3f9d92dabf1fa8fd442c57b
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: SyncState
+    Id: g=000cc603b8844a26ed9024ab1da2a507
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: ""
   - Name: UnrecoverableMajorFaults
+    Id: g=e9c562d1622eaf8ad5ef8158cd40835a
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: UnrecoverableMinorFaults
+    Id: g=b643ca1d35fe3619d98d3b9c44f2d4d2
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
     Value: false
   - Name: Vendor
+    Id: g=addbabe17979f5ce890466f549849ef8
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
     Value: 0
 - Name: OperationCode
+  Id: g=c267f30796dc2af8b5fe529fc449e456
   Type: BaseDataVariableType
   DataType: CommunicationOperationCode
   AccessLevel: Read
   Value: 0
 - Class: Reference
-  Target: ns=7;i=29
+  Target: ns=41;i=29
   Direction: Forward
 - Class: Reference
-  Target: ns=7;i=30
+  Target: ns=41;i=30
   Direction: Forward
 - Class: Reference
-  Target: ns=7;i=67
+  Target: ns=41;i=67
   Direction: Forward
 - Class: Reference
-  Target: ns=7;i=31
+  Target: ns=41;i=31
   Direction: Forward
 - Class: Reference
-  Target: ns=7;i=94
+  Target: ns=41;i=94
   Direction: Forward
 - Class: Reference
-  Target: ns=7;i=96
+  Target: ns=41;i=96
   Direction: Forward
 - File: Tags/Tags.yaml
 - Name: Types
+  Id: g=d328a0b5dca3bb44e992465aac7a7285
   Type: FolderType
   Children:
   - File: DataTypes/DataTypes.yaml

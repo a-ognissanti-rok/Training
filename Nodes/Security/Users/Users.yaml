@@ -15,6 +15,24 @@ Children:
   - Class: Reference
     Type: HasRole
     Target: g=ca893631df9d3bd4b48a6ec6777b546a
+  - Name: LocaleId
+    Id: g=3a7ac00d240bdafbea39eec21ba66a0c
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=1c979c16f800942101f9a6b4ee264d31
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=2b1738be9b438c403d26b0345d0d6526
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
 - Name: User2
   Id: g=045ef202353652ae1bb2c9b69e52bb56
   Type: UserType
@@ -25,6 +43,18 @@ Children:
   - Class: Reference
     Type: HasGroup
     Target: g=14aac684675bad67fe02087d02791c64
+  - Name: LocaleId
+    Id: g=dcc5aab3bf5637c2d52afb265afd70e3
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "it-IT"
+  - Name: MeasurementSystem
+    Id: g=a991d0d914524742c1bb2af7eda6f408
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
 - Name: User3
   Id: g=a14fcf5ad90d468a8edd12d0a8f151c6
   Type: UserType

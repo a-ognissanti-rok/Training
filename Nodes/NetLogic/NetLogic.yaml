@@ -1,2 +1,24 @@
 Name: NetLogic
+Id: g=22cbb0c18e7eae24b843d0a9443f5669
 Type: NetLogicCategoryFolder
+Children:
+- Name: DesignTimeNetLogic1
+  Id: g=c4efc54dc0888e7218f3ef8084db4232
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+    Id: g=c5184e9937a962c6cfaffee6857235b9
+  - Name: BehaviourStartPriority
+    Id: g=346e65f6d7a6229329107afab4aa542d
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: Variable1
+    Id: g=01e71e144405f869d74ed0385559ff8a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Class: Method
+    Name: Method2
+    Id: g=12f384954d740dff829d1a29574823c9

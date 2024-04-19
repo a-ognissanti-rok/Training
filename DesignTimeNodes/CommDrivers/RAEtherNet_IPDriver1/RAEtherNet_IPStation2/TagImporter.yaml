@@ -1,0 +1,23 @@
+Name: TagImporter
+Id: g=dcd7d08f8509d0ba471314f064019857
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=0134c669e5b5590c44ad0c365a538c92
+Children:
+- Name: IgnoredPLCItems
+  Id: g=40644e50e320f5f442ad76b6b50e73e5
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=e29331be96b622b28c07c782dba17349
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: FilePath
+  Id: g=638186a27f229ce8b83a5df8f9833c1d
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///D:/Downloads/Oven_and_BoilerDemo_20230320_1503_V36.RA-INT.AOGNISSANTI.BAK000.acd"

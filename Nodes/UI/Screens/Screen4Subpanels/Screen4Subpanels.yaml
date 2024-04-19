@@ -1,4 +1,5 @@
-Name: Subpanels
+Name: Screen4Subpanels
+Id: g=2a6d4cde6a67bbe5586c088ac5024e6d
 Type: FolderType
 Children:
 - Name: Panel1
@@ -7,14 +8,17 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Label1
+    Id: g=9b32c7c3d7ffacd0631422d2835fc240
     Type: Label
     Children:
     - Name: Text
+      Id: g=82737026ded3efc6a5722424c1ea535c
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=8dd5aa16b4dfce947016ac1497604b93
         Type: DynamicLink
         DataType: NodePath
         Value: "../..@BrowseName"
@@ -24,14 +28,17 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Label1
+    Id: g=2fa78fd4c333cfeb734ab912fc2a1d88
     Type: Label
     Children:
     - Name: Text
+      Id: g=14226cce1f11bc4372dc13c66b93a6ea
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=4092789f36fc52785397a8b3f30d3e0f
         Type: DynamicLink
         DataType: NodePath
         Value: "../..@BrowseName"
@@ -41,14 +48,17 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Label1
+    Id: g=f1e1cf0c39d75777e0bf6c9bcca025df
     Type: Label
     Children:
     - Name: Text
+      Id: g=03d11e6210f10cec5878111b417e8ae6
       Type: BaseDataVariableType
       DataType: LocalizedText
       Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
+        Id: g=e0b8b1f49b6ad403fc4d47cc97cc414b
         Type: DynamicLink
         DataType: NodePath
         Value: "../..@BrowseName"

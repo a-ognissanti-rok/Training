@@ -1,16 +1,17 @@
 Name: DataTypes
+Id: g=ea900ca8d5564902974174264d826c6f
 Type: FolderType
 Children:
 - Class: DataType
   Name: Motor
-  Id: g=7c2564b9cbc735392213e56b353919ca
+  Id: g=3c11e8b497332702c289849fe9504ca9
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "Motor",
     "DataType": {
      "IdType": 2,
-     "Id": "7c2564b9cbc735392213e56b353919ca",
+     "Id": "3c11e8b497332702c289849fe9504ca9",
      "Namespace": 13
     },
     "Fields": [{
@@ -43,20 +44,21 @@ Children:
   DisplayName: {"LocaleId":"","Text":"Motor"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=03c3eb3a33c899c10c327ee82ad8ccb4
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
   Name: TankUDT
-  Id: g=955fc1e54d5f93fae572f227170f60e4
+  Id: g=6f86c44b5f8968969daeb0dc0487adeb
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "TankUDT",
     "DataType": {
      "IdType": 2,
-     "Id": "955fc1e54d5f93fae572f227170f60e4",
+     "Id": "6f86c44b5f8968969daeb0dc0487adeb",
      "Namespace": 13
     },
     "Fields": [{
@@ -94,6 +96,7 @@ Children:
   DisplayName: {"LocaleId":"","Text":"TankUDT"}
   Children:
   - Name: ns=0;Default Binary
+    Id: g=8f35582ff08b46eea0963c0365cc8bb3
     Type: DataTypeEncodingType
     ModellingRule: None
     DisplayName: {"LocaleId":"","Text":"Default Binary"}

@@ -1,53 +1,73 @@
 Name: Training
+Id: g=1c5bd753a85866c1735e015989a1cffa
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=a9d35af9388f9edb4f3907c66337f275
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=a78af07c433a388e4825616bd111060b
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-IT"]
   - Name: LocaleFallbackList
+    Id: g=a897d3dcb545c38df06989cae295691d
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
+  - Name: MeasurementSystemMap
+    Id: g=ff2d0ff61a104dc0ef62cb21100c0393
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4804168,"NamespaceIndex":0}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":5067858,"NamespaceIndex":0}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4804168,"NamespaceIndex":0}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4804168,"NamespaceIndex":0}}}}]
 - Name: Authentication
+  Id: g=afe48d8f608170a996ef1d98f4445478
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=48223c748f88d3046489c247cb945f59
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Training/Security/Users"
     Children:
     - Name: Kind
+      Id: g=be2490db82f45320af8dd8e501e13a81
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=13a2ba79a4cc1f28807d765b94a2803e
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=6505d93125caa74ed90f693436bf64aa
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=560d56e0845dc5e33ddffad530bdd176
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=4b4b2c5d916084ce6564f8837e84b398
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=9b5c4fe608d4329f65ae1357d8aff182
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=990c6c91fc66a1da6deb758036bb42dd
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -65,11 +85,13 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RecipeSchema1
+  Id: g=d8e7a57b70fda8178d496445fa58f3d4
   Type: Alias
   DataType: NodeId
   Value: "/Objects/Training/Recipes/RecipeSchema1/EditModel"
   Children:
   - Name: Kind
+    Id: g=c349e479d7f6aba3530de1c9439ffe33
     Type: PropertyType
     DataType: NodeId
     Value: "/Objects/Training/Recipes/RecipeSchema1/EditModel"
