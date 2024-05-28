@@ -543,7 +543,7 @@ Children:
     Id: g=f7d253c2c0a38358a6371477a0f2fb3d
     Type: Alias
     DataType: NodeId
-    Value: "/Objects/Training/UI/UITypes/Widgets/LoginForm1/LoginFormComponents/LoginPasswordExpiredDialog"
+    Value: "/Objects/Training/UI__NEWQ/UITypes/Widgets/LoginForm1/LoginFormComponents/LoginPasswordExpiredDialog"
     Children:
     - Name: Kind
       Id: g=f46687e73090c38de039a325b7ff13a4

@@ -1,4 +1,4 @@
-Name: UI
+Name: UI__NEWQ
 Id: g=c7e4fbad2bd8e9a22f4fe5a3b190684d
 Type: UICategoryFolder
 Children:
@@ -287,7 +287,7 @@ Children:
     Id: g=4fb8dbbb2014244b61ccd1a0e8757236
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Training/UI/MainWindow"
+    Value: "/Objects/Training/UI__NEWQ/MainWindow"
     Children:
     - Name: Kind
       Id: g=731540d8075b2aa3604792d3d910b428
@@ -298,7 +298,7 @@ Children:
     Id: g=0cb7eaa54ec689009b83a4c0b37cf01f
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Training/UI/DefaultStyleSheet"
+    Value: "/Objects/Training/UI__NEWQ/DefaultStyleSheet"
     Children:
     - Name: Kind
       Id: g=c82ebaa23b9d1e68af87cfee9623f97a
@@ -415,7 +415,7 @@ Children:
     Id: g=4535a0fc0c56aab7b98d0ae391994dd3
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Training/UI/UISession1"
+    Value: "/Objects/Training/UI__NEWQ/UISession1"
     Children:
     - Name: Kind
       Id: g=f0e771b9f55610c79895a3e24fc9f996
@@ -445,7 +445,7 @@ Children:
     Id: g=bd679d5b0258d4faa1a8a59e43aed81f
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Training/UI/MainWindow"
+    Value: "/Objects/Training/UI__NEWQ/MainWindow"
     Children:
     - Name: Kind
       Id: g=3b8cb5f5508f0a62b77133745936667f
@@ -456,7 +456,7 @@ Children:
     Id: g=7f3ec81bedfb21c91e790150d4907376
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Training/UI/DefaultStyleSheet"
+    Value: "/Objects/Training/UI__NEWQ/DefaultStyleSheet"
     Children:
     - Name: Kind
       Id: g=ac4778032f530fdf5ba0ed6582b18dd3
@@ -573,7 +573,7 @@ Children:
     Id: g=90a5dd9c2a1459683dd56560052e0bc2
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Training/UI/UISession2"
+    Value: "/Objects/Training/UI__NEWQ/UISession2"
     Children:
     - Name: Kind
       Id: g=aba774ea896a59d3bdb552cda1ece3be
@@ -863,7 +863,7 @@ Children:
           Id: g=669b03531e9004b908014ad833ad02f4
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen1"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen1"
           Children:
           - Name: Kind
             Id: g=ca564d5b77a2b31f839278f53df83891
@@ -883,7 +883,7 @@ Children:
           Id: g=85a27a7d1b3d21da9440b88787b9a9c9
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen2"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen2"
           Children:
           - Name: Kind
             Id: g=f2ac10f06fa29d81d2d0d5904cd4527a
@@ -903,7 +903,7 @@ Children:
           Id: g=9a8dd75ce28ff9db1004c9b4b999e515
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen3"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen3"
           Children:
           - Name: Kind
             Id: g=df88ddbb1c6f59b8604be72e813d20dd
@@ -923,7 +923,7 @@ Children:
           Id: g=136f973591b3c46389aaed358e3f015d
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen4"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen4"
           Children:
           - Name: Kind
             Id: g=7f914f0e3d73ad1ef0f6601529b7eb01
@@ -943,7 +943,7 @@ Children:
           Id: g=16fb1ec77ab1c0605bc9b430acf27cf8
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen5"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen5"
           Children:
           - Name: Kind
             Id: g=e54642af2540a7c7c58ab00b63ce1330
@@ -963,7 +963,7 @@ Children:
           Id: g=78b45530f0f4470c29e81b4a9764c170
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen6"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen6"
           Children:
           - Name: Kind
             Id: g=3d02b63abcfdf4cb3a0cbdf40e5923f0
@@ -983,7 +983,7 @@ Children:
           Id: g=84070c73965808fb8e1c57114fc1bbe4
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen7"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen7"
           Children:
           - Name: Kind
             Id: g=f3b07eac86eea0e37357d4a5e49a10d9
@@ -1003,7 +1003,7 @@ Children:
           Id: g=07b3bc0accc31fc5858fd1572b3b0869
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen8"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen8"
           Children:
           - Name: Kind
             Id: g=cec71ccc4264c7ad9c1fe5b1c487d676
@@ -1023,7 +1023,7 @@ Children:
           Id: g=051a736e4c8f7cf1dd8758be54f5f1c6
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen9"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen9"
           Children:
           - Name: Kind
             Id: g=38a0399ccb2a3ced7eb4742cb187448e
@@ -1043,7 +1043,7 @@ Children:
           Id: g=726a49ab8e5d247f0e41c3b6b2c85a3b
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen10"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen10"
           Children:
           - Name: Kind
             Id: g=a88498df52485f4516c611fa8b8ee460
@@ -1063,7 +1063,7 @@ Children:
           Id: g=49afa3c1a7fc9074e48666c2e988c382
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Training/UI/Screens/Screen11"
+          Value: "/Objects/Training/UI__NEWQ/Screens/Screen11"
           Children:
           - Name: Kind
             Id: g=c3f8ea3aede3f422f989a26ecbd259d5

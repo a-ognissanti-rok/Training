@@ -40,14 +40,14 @@ Children:
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: "/Objects/Training/UI/UITypes/Widgets/LoginForm1/LoginFormComponents/Logout"
+        Value: "/Objects/Training/UI__NEWQ/UITypes/Widgets/LoginForm1/LoginFormComponents/Logout"
       - Name: FalseValue
         Id: g=a6f67ef68e72a7c47a8149869f30acea
         Type: BaseDataVariableType
         DataType: NodeId
         ReferenceType: HasParameter
         ModellingRule: Optional
-        Value: "/Objects/Training/UI/UITypes/Widgets/LoginForm1/LoginFormComponents/Login"
+        Value: "/Objects/Training/UI__NEWQ/UITypes/Widgets/LoginForm1/LoginFormComponents/Login"
   - Name: CurrentPanel
     Id: g=0e7b6e21c25e575203509c34bd03eacd
     Type: NodePointer

@@ -69,7 +69,7 @@ Children:
 - Name: AlarmConfiguration
   Id: g=990c6c91fc66a1da6deb758036bb42dd
   Type: PropertyGroup
-- File: UI/UI.yaml
+- File: UI__NEWQ/UI__NEWQ.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
 - File: Alarms/Alarms.yaml

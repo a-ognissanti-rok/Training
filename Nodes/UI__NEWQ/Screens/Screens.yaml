@@ -1711,7 +1711,7 @@ Children:
                   Type: BaseDataVariableType
                   DataType: NodeId
                   Description: {"NamespaceIndex":3,"TextId":"OpenDialogDialogDescription"}
-                  Value: "/Objects/Training/UI/UITypes/Dialogs/MyDialogBox"
+                  Value: "/Objects/Training/UI__NEWQ/UITypes/Dialogs/MyDialogBox"
                 - Name: AliasNode
                   Id: g=937d20fc0d808b60c5b6ea3a4949d90c
                   Type: BaseDataVariableType
@@ -2174,7 +2174,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-              Value: "/Objects/Training/UI/Screens/Screen4Subpanels/Panel1"
+              Value: "/Objects/Training/UI__NEWQ/Screens/Screen4Subpanels/Panel1"
             - Name: AliasNode
               Id: g=a2cd12457f089005d738859dc0721a8a
               Type: BaseDataVariableType
@@ -2302,7 +2302,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-              Value: "/Objects/Training/UI/Screens/Screen4Subpanels/Panel2"
+              Value: "/Objects/Training/UI__NEWQ/Screens/Screen4Subpanels/Panel2"
             - Name: AliasNode
               Id: g=2045c738f4fb117cbb1dfa6bc933fa46
               Type: BaseDataVariableType
@@ -2430,7 +2430,7 @@ Children:
               Type: BaseDataVariableType
               DataType: NodeId
               Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-              Value: "/Objects/Training/UI/Screens/Screen4Subpanels/Panel3"
+              Value: "/Objects/Training/UI__NEWQ/Screens/Screen4Subpanels/Panel3"
             - Name: AliasNode
               Id: g=a98ac0a6b2e49552d71ba396316c4098
               Type: BaseDataVariableType
