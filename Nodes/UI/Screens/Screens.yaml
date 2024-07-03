@@ -674,7 +674,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Alle 11:59 caffè"}
+      Value: {"LocaleId":"en-US","Text":"Fai il serio"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
