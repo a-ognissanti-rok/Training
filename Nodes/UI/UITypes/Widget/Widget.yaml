@@ -50,7 +50,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -105,7 +104,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
