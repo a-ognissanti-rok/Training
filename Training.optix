@@ -116,10 +116,10 @@ Project:
    Module: FTOptix.Recipe.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 3124
-  Objects: 641
+  TotalNodeCount: 3123
+  Objects: 642
   ObjectTypes: 27
-  Variables: 2436
+  Variables: 2434
   VariableTypes: 0
   DataTypes: 0
   Methods: 20
