@@ -1,3 +1,101 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: MyDigitalAlarm
+  Id: g=ab5b4ef9ae102564e23270636547e168
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=70b8ad96c6f5d211cbf34156ff8171ea
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=59f00d2b680426a5ed0262e1399382c0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=ad2af63e25cd6f4548604b8106fec4d1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Image
+    Id: g=1c02320d11bae966a7a96cf0ad15cdc2
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "0"
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=7c4d2b11658daf2ab1d301be65b1fddd
+- Name: MyDigitalAlarm1
+  Id: g=f69cf916fb0d375ee95f7b093c709e18
+  Type: MyDigitalAlarm
+  Children:
+  - Class: Reference
+    Target: ns=19;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=08eb5a4288ae8bb226cb099c5aa30800
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d7272003d8cb318a32ba8b62c2345de6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ce3a1ce2c2ac83d4bb142d288d0d5f3d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/ALM01"
+      Children:
+      - Name: Mode
+        Id: g=3c91f120bc14097099b2eb82fab1ad36
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c92117f6682a37c88150a3d5d6a3063b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Image
+    Id: g=f804337d736fbc312971d41a962c76b3
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "0"

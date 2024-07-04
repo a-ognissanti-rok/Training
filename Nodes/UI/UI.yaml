@@ -10,6 +10,18 @@ Children:
     Children:
     - Name: Default
       Type: ButtonStyle
+      Children:
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 100.0
+      - Name: BorderWidth
+        Type: BaseDataVariableType
+        DataType: Size
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
     - Name: Accent
       Type: ButtonStyle
       Children:
@@ -112,6 +124,11 @@ Children:
     Children:
     - Name: Default
       Type: SwitchStyle
+      Children:
+      - Name: Radius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 100.0
   - Name: GaugeStyles
     Type: BaseObjectType
     Children:
@@ -122,6 +139,15 @@ Children:
     Children:
     - Name: Default
       Type: NavigationPanelStyle
+      Children:
+      - Name: InactiveTextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f0f0f0"
+      - Name: ActivePrimaryColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
   - Name: ChartStyles
     Type: BaseObjectType
     Children:
@@ -184,6 +210,24 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.5
+  - Name: InteractiveColorGradientPercent
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3b3b3b"
+  - Name: InteractiveColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#3b3b3b"
+  - Name: ScreenColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#f1f2f4"
+  - Name: FocusGlowSize
+    Type: BaseDataVariableType
+    DataType: Size
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
@@ -405,6 +449,81 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Training/UI/Screens/Datalogger"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Training/UI/Screens/Alarms"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel6
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Training/UI/Screens/AlarmsHis"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel7
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Training/UI/Screens/Recipes"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel8
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Training/UI/Screens/RuntimeUsers"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
       Type: NodePointer
       DataType: NodeId
@@ -443,10 +562,19 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
+    - Name: Appearance
+      Type: BaseVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "underlined"
+    - Name: TabHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 48.0
   - Name: FullScreen
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
-    Value: true
 - File: Screens/Screens.yaml
 - File: UITypes/UITypes.yaml

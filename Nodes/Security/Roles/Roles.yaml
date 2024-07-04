@@ -1,3 +1,7 @@
 Name: Roles
 Id: g=168315c4ba704e70bb13e35de715eb03
 Type: RolesCategoryFolder
+Children:
+- Name: Role1
+  Id: g=fd22a21e14875eb3691150e423c9a45c
+  Type: ns=1;RoleType

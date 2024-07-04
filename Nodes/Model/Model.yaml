@@ -1,15 +1,24 @@
 Name: Model
+Id: g=1877dfc9d185721eb50f974620e5ee60
 Type: ModelCategoryFolder
 Children:
 - Name: Variable1
+  Id: g=6a5adf9bfc1cdce4ebae73f7a7ae42d9
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable2
+  Id: g=776b928b337a7e34c7050da9b8eeb846
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable3
+  Id: g=cc4c18d973b4ee62349d8135175125a1
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable4
+  Id: g=4eece1d62648de05b49587aad6aa3999
   Type: BaseDataVariableType
   DataType: Int32
+- Name: ALM01
+  Id: g=67f35002723835e2cf42cc7a18d9c751
+  Type: BaseDataVariableType
+  DataType: Boolean

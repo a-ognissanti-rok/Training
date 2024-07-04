@@ -1,3 +1,33 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=0a72b1408a14288d60fdeb51be62ca0b
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=a05d008c2465a559d2f29faac78b79f0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=d6b0cbf23be26747b3085d093a89a861
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=781aa4e87e271dc9843451f8f09aba26
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+  - Name: Domain
+    Id: g=cd243dc9d460bb834dcb61f083b082a0
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+  - Class: Reference
+    Type: HasGroup
+    Target: g=f48316c03b3ab655cf633248016d1cfd
